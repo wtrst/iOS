@@ -9,6 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var secondUIView: UIView!
+    
+    override func viewDidAppear(_ animated: Bool) {
+        secondUIView.frame = CGRect(x: 0, y: -100, width: 375, height:667)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
