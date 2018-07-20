@@ -1,0 +1,16 @@
+PODS:
+  - ScrollableGraphView (4.0.5)
+
+DEPENDENCIES:
+  - ScrollableGraphView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ScrollableGraphView
+
+SPEC CHECKSUMS:
+  ScrollableGraphView: 6386dbae8d92e8ec9fda9f386f2ba6e2c90c59a3
+
+PODFILE CHECKSUM: 4d53943e00f6cb4843e3d36ba004aafaa1cb8de3
+
+COCOAPODS: 1.5.3

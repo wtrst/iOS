@@ -12,6 +12,8 @@ import GameplayKit
 
 class GameViewController: UIViewController, DialogDelegate{
     
+    var menu : String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -21,10 +23,11 @@ class GameViewController: UIViewController, DialogDelegate{
                 // Set the scale mode to scale to fit the window
                 scene.scaleMode = .aspectFill
                 scene.myDelegate = self
+                scene.setMode(menu: self.menu)
                 // Present the scene
                 view.presentScene(scene)
             }
-            
+
             view.ignoresSiblingOrder = true
             view.showsFPS = true
             view.showsNodeCount = true
@@ -34,7 +37,7 @@ class GameViewController: UIViewController, DialogDelegate{
     func showDialog(score : Int){
         let alertController = UIAlertController(title: "SCORE: \(score)", message: "", preferredStyle: UIAlertControllerStyle.alert)
         let top = UIAlertAction(title: "TOP", style: UIAlertActionStyle.default){ (action: UIAlertAction) in
-            print("top")
+            self.dismiss(animated: true, completion: nil)
         }
         
         let playAgain = UIAlertAction(title: "PLAY AGAIN", style: UIAlertActionStyle.default){ (action: UIAlertAction) in

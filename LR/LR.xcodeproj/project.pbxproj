@@ -15,8 +15,9 @@
 		DE96DEDA20D1CACA001F786E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE96DED820D1CACA001F786E /* Main.storyboard */; };
 		DE96DEDC20D1CAD1001F786E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE96DEDB20D1CAD1001F786E /* Assets.xcassets */; };
 		DE96DEDF20D1CAD1001F786E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE96DEDD20D1CAD1001F786E /* LaunchScreen.storyboard */; };
-		DEC2557620DC6DE8006F70AA /* TopScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC2557520DC6DE8006F70AA /* TopScene.swift */; };
-		DEC2557820DC6E1D006F70AA /* TopScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DEC2557720DC6E1D006F70AA /* TopScene.sks */; };
+		DEB749DB20EC1E7700360004 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB749DA20EC1E7700360004 /* TopViewController.swift */; };
+		DEB749DD20EC200C00360004 /* TopScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DEB749DC20EC200C00360004 /* TopScene.sks */; };
+		DEB749DF20EC205000360004 /* TopScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB749DE20EC205000360004 /* TopScene.swift */; };
 		DEC3F72920D8A1D400C12E3B /* 8-BIT WONDER.TTF in Resources */ = {isa = PBXBuildFile; fileRef = DEC3F72820D8A1D400C12E3B /* 8-BIT WONDER.TTF */; };
 /* End PBXBuildFile section */
 
@@ -31,8 +32,9 @@
 		DE96DEDB20D1CAD1001F786E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE96DEDE20D1CAD1001F786E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE96DEE020D1CAD1001F786E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DEC2557520DC6DE8006F70AA /* TopScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopScene.swift; sourceTree = "<group>"; };
-		DEC2557720DC6E1D006F70AA /* TopScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TopScene.sks; sourceTree = "<group>"; };
+		DEB749DA20EC1E7700360004 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		DEB749DC20EC200C00360004 /* TopScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TopScene.sks; sourceTree = "<group>"; };
+		DEB749DE20EC205000360004 /* TopScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopScene.swift; sourceTree = "<group>"; };
 		DEC3F72820D8A1D400C12E3B /* 8-BIT WONDER.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "8-BIT WONDER.TTF"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,11 +71,12 @@
 				DEC3F72820D8A1D400C12E3B /* 8-BIT WONDER.TTF */,
 				DE96DECE20D1CACA001F786E /* AppDelegate.swift */,
 				DE96DED020D1CACA001F786E /* GameScene.sks */,
-				DEC2557720DC6E1D006F70AA /* TopScene.sks */,
-				DEC2557520DC6DE8006F70AA /* TopScene.swift */,
 				DE96DED220D1CACA001F786E /* Actions.sks */,
+				DEB749DE20EC205000360004 /* TopScene.swift */,
+				DEB749DC20EC200C00360004 /* TopScene.sks */,
 				DE96DED420D1CACA001F786E /* GameScene.swift */,
 				DE96DED620D1CACA001F786E /* GameViewController.swift */,
+				DEB749DA20EC1E7700360004 /* TopViewController.swift */,
 				DE96DED820D1CACA001F786E /* Main.storyboard */,
 				DE96DEDB20D1CAD1001F786E /* Assets.xcassets */,
 				DE96DEDD20D1CAD1001F786E /* LaunchScreen.storyboard */,
@@ -143,7 +146,7 @@
 				DE96DEDA20D1CACA001F786E /* Main.storyboard in Resources */,
 				DE96DED120D1CACA001F786E /* GameScene.sks in Resources */,
 				DE96DEDC20D1CAD1001F786E /* Assets.xcassets in Resources */,
-				DEC2557820DC6E1D006F70AA /* TopScene.sks in Resources */,
+				DEB749DD20EC200C00360004 /* TopScene.sks in Resources */,
 				DEC3F72920D8A1D400C12E3B /* 8-BIT WONDER.TTF in Resources */,
 				DE96DEDF20D1CAD1001F786E /* LaunchScreen.storyboard in Resources */,
 				DE96DED320D1CACA001F786E /* Actions.sks in Resources */,
@@ -158,9 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE96DED520D1CACA001F786E /* GameScene.swift in Sources */,
+				DEB749DF20EC205000360004 /* TopScene.swift in Sources */,
 				DE96DED720D1CACA001F786E /* GameViewController.swift in Sources */,
-				DEC2557620DC6DE8006F70AA /* TopScene.swift in Sources */,
 				DE96DECF20D1CACA001F786E /* AppDelegate.swift in Sources */,
+				DEB749DB20EC1E7700360004 /* TopViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

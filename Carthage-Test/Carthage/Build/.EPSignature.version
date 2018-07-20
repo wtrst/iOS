@@ -1,0 +1,9 @@
+{
+  "commitish" : "1.0.4",
+  "iOS" : [
+    {
+      "name" : "EPSignature",
+      "hash" : "384d2a1823c5bb2f0a8b954a28c29be6386cedd7fb83abe3b38e59607166c8dd"
+    }
+  ]
+}
